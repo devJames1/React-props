@@ -2,6 +2,7 @@
 // import './App.css';
 import React from 'react';
 import Classprops from './Classprops';
+import Functionprop from './Functionprop';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <button>Click</button>
       </Classprops>
       <Classprops name="learner 3" place="placeZ" />
+      <Functionprop name="Learner 4" place="Place A" />
     </div>
   );
 }
